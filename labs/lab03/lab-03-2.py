@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 12:07:17 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjsxMTo0MToyNSBBTTsyNjgy"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjsxMjowNzoxNyBQTTsyOzI4MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numNight" type="Real" array="False" size=""/>
+            <input variable="NumNight"/>
+            <declare name="totalPayment" type="Real" array="False" size=""/>
+            <assign variable="totalPayment" expression="250 * 1.15 * numNight"/>
+            <output expression="totalPayment" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
+
+numNight = float(input())
+totalPayment = 250 * 1.15 * numNight
+print(totalPayment)
