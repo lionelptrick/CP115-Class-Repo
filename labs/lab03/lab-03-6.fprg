@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-6"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-23 10:20:36 PM"/>
+        <attribute name="saved" value="2025-07-23 10:25:40 PM"/>
         <attribute name="created" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjswMTowMDowMyBQTTsyNjg3"/>
-        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMzsxMDoyMDozNiBQTTszOzI4MDY="/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMzsxMDoyNTo0MCBQTTs0OzI4MDc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,7 +14,7 @@
             <declare name="yardLength" type="Real" array="False" size=""/>
             <declare name="yardWidth" type="Real" array="False" size=""/>
             <declare name="houseLength" type="Real" array="False" size=""/>
-            <declare name="houseWidth" type="Integer" array="False" size=""/>
+            <declare name="houseWidth" type="Real" array="False" size=""/>
             <input variable="yardLength"/>
             <input variable="yardWidth"/>
             <input variable="houseLength"/>
