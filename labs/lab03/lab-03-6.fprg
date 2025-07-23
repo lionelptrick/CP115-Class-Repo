@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-6"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 01:10:53 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjswMTowMDowMyBQTTsyNjg3"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjswMToxMDo1MyBQTTsxOzI4MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yardLength" type="Real" array="False" size=""/>
+            <declare name="yardWidth" type="Real" array="False" size=""/>
+            <declare name="houseLength" type="Real" array="False" size=""/>
+            <declare name="houseWidth" type="Integer" array="False" size=""/>
+            <input variable="yardLength"/>
+            <input variable="yardWidth"/>
+            <input variable="houseLength"/>
+            <input variable="houseWidth"/>
+            <declare name="Wage" type="Real" array="False" size=""/>
+            <assign variable="Wage" expression="(yardLength * yardWidth - houseLength * houseWidth)* 2.00"/>
+        </body>
+    </function>
+</flowgorithm>
