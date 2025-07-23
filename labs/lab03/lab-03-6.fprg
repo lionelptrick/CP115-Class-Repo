@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-6"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-22 01:10:53 PM"/>
+        <attribute name="saved" value="2025-07-23 10:20:36 PM"/>
         <attribute name="created" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjswMTowMDowMyBQTTsyNjg3"/>
-        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjswMToxMDo1MyBQTTsxOzI4MDE="/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMzsxMDoyMDozNiBQTTszOzI4MDY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -20,7 +20,8 @@
             <input variable="houseLength"/>
             <input variable="houseWidth"/>
             <declare name="Wage" type="Real" array="False" size=""/>
-            <assign variable="Wage" expression="(yardLength * yardWidth - houseLength * houseWidth)* 2.00"/>
+            <assign variable="Wage" expression="(yardLength * yardWidth - houseLength * houseWidth)* 2"/>
+            <output expression="Wage" newline="True"/>
         </body>
     </function>
 </flowgorithm>
