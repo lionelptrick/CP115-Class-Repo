@@ -1,3 +1,3 @@
 packsEaten = float(input())
-totalCalories = packsEaten * 300
+totalCalories = packsEaten * 3000
 print(totalCalories)
