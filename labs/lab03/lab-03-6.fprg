@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-6"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-28 09:57:34 PM"/>
+        <attribute name="saved" value="2025-07-28 10:19:37 PM"/>
         <attribute name="created" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yMjswMTowMDowMyBQTTsyNjg3"/>
-        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yODswOTo1NzozNCBQTTs1OzI4Mjk="/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMzRKRTdCMFA7MjAyNS0wNy0yODsxMDoxOTozNyBQTTs2OzI4MjM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -19,8 +19,12 @@
             <input variable="yardWidth"/>
             <input variable="houseLength"/>
             <input variable="houseWidth"/>
+            <declare name="yardArea" type="Real" array="False" size=""/>
+            <assign variable="yardArea" expression="yardLength * yardWidth"/>
+            <declare name="houseArea" type="Real" array="False" size=""/>
+            <assign variable="houseArea" expression="houseLength * houseWidth"/>
             <declare name="TotalWage" type="Real" array="False" size=""/>
-            <assign variable="TotalWage" expression="(yardLength * yardWidth - houseLength * houseWidth)* 2"/>
+            <assign variable="TotalWage" expression="(yardArea - houseArea)* 2"/>
             <output expression="TotalWage" newline="True"/>
         </body>
     </function>
