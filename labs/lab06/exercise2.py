@@ -7,6 +7,6 @@ print()
 print(message2)
 
 message3 = """The teacher asked, "Who is ready for today's quiz?"
-Everyone replied, "We're prepared at all!" """
+Everyone replied, "We're not prepared at all!" """
 print()
 print(message3)
