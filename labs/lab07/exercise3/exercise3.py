@@ -1,0 +1,15 @@
+import school_data
+
+print("><><><<><><> SCHOOL DATA ><><><<><><>")
+print()
+print("--- Student's information ---")
+print(f"Student name: {school_data.student_name}")
+print(f"Student ID: {school_data.student_ID}")
+print(f"Age: {school_data.age}")
+print()
+print("--- Course's information ---")
+print(f"Course code: {school_data.course_code}")
+print(f"Course name: {school_data.course_name}")
+print()
+print("--- Total Score ---")
+print(f"Random Score 1: {school_data.score1}")
